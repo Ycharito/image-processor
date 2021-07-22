@@ -1,67 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    display: flex;
-    background-image: linear-gradient(to right top, #cf747f, #cf6e8b, #ac5e81, #d180b8, #c991c6);
-    justify-content: center;
-    align-items: initial;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  display: flex;
+  background-image: linear-gradient(
+    to right top,
+    #cf747f,
+    #cf6e8b,
+    #ac5e81,
+    #d180b8,
+    #c991c6
+  );
+  justify-content: center;
+  align-items: initial;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }
-h1{
-    font-size: 30px;
-    font-weight: 800;
-    padding-bottom: 40px;
-    padding-top: 60px;
-    text-align: center;
+section {
+  max-width: 500px;
 }
-#imagen{
-    display: block;
-    width: 100%;
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 40px;
+  padding-top: 60px;
+  text-align: center;
 }
-.form{
-    display: flex;
-    margin: 8px ;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
+.selector {
+  text-align: center;
+  margin: 10px 0;
 }
-#Agregar{
-    border: 1px solid azure;
-    border-radius: 5px;
-    width: 16%;
-    font-weight: 650;
-    height: 27px;
-    background: rgb(247, 145, 176);
-    margin-left: 10px;
-    cursor: pointer;
+#imagen {
+  display: block;
+  border: 3px solid #c991c6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #fff;
+  max-width: 100%;
+  max-height: 500px;
 }
-#file{
-   padding: 2px;
-   margin-right: 0;
-   border: 1px solid azure;
-   min-height: 20px;
-   border-radius: 2px;
+.form {
+  display: flex;
+  margin: 8px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
 }
-#Agregar:hover{
-    background-color: rgba(255, 167, 208, 0.993);
-    box-shadow: 0 0 2px 1px #a9b1ff;
+#Agregar {
+  border: 1px solid azure;
+  border-radius: 5px;
+  width: 16%;
+  font-weight: 650;
+  height: 27px;
+  background: rgb(247, 145, 176);
+  margin-left: 10px;
+  cursor: pointer;
+}
+#file {
+  padding: 2px;
+  margin-right: 0;
+  border: 1px solid azure;
+  min-height: 20px;
+  border-radius: 2px;
+}
+#Agregar:hover {
+  background-color: rgba(255, 167, 208, 0.993);
+  box-shadow: 0 0 2px 1px #a9b1ff;
 }
 
-.description{
-    margin: 40px 200px;
+.description {
+  margin: 40px 0;
+  text-align: center;
 }
-label{
-    display: table;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 5px;
+label {
+  display: table;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
 }
-.item{
-    border-radius: 2px;
-    border: 1px solid rgb(41, 33, 41);
-    width: auto;
-    height: 20px;
+.item {
+  border-radius: 2px;
+  border: 1px solid rgb(41, 33, 41);
+  width: 100%;
+  height: 20px;
 }

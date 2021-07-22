@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
     <title>Image-Processor</title>
-</head>
-<body>
- <section>
-     <h1>PROCESSOR OF IMAGES</h1>
-     <div class="content">
-             <img id="imagen" src="img/hello.jpg" alt="">
-    <div class="selector">
-        <form class="form">
-             <input type="file" value="Seleccionar archivo" accept=".jpg, .png" id="file">
-             <input type="submit" value="Agregar archivo" id="Agregar">
-        </form>
-     </div>
-     <div class="description">
-             <label for="title">TITULO:</label> <input class="item" type="text" name="title" id="title">
-             <label for="type">TIPO: </label><input class="item" type="text" name="type">
-             <label for="size">TAMAÑO: </label><input class="item" type="number" name="size">
-     </div>
-     </div>
- </section>
-</body>
+  </head>
+  <body>
+    <section>
+      <h1>PROCESSOR OF IMAGES</h1>
+      <div class="content">
+        <img id="imagen" src="img/hello.jpg" alt="" />
+        <div class="selector">
+          <input
+            type="file"
+            value="Seleccionar archivo"
+            accept="image/*"
+            id="file"
+          />
+        </div>
+        <div class="description">
+          <label for="name">NOMBRE:</label>
+          <input class="item" type="text" id="name" />
+          <label for="type">TIPO: </label>
+          <input class="item" type="text" id="type" />
+          <label for="size">TAMAÑO: </label>
+          <input class="item" type="text" id="size" />
+        </div>
+      </div>
+    </section>
+
+    <script src="./scripts/app.js"></script>
+  </body>
 </html>
