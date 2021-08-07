@@ -21,10 +21,11 @@ section {
   max-width: 500px;
 }
 h1 {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 800;
   padding-bottom: 40px;
   padding-top: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
 }
 .selector {
@@ -46,28 +47,18 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-#Agregar {
-  border: 1px solid azure;
-  border-radius: 5px;
-  width: 16%;
-  font-weight: 650;
-  height: 27px;
-  background: rgb(247, 145, 176);
-  margin-left: 10px;
-  cursor: pointer;
-}
 #file {
   padding: 2px;
   margin-right: 0;
   border: 1px solid azure;
   min-height: 20px;
   border-radius: 2px;
+  cursor: pointer;
 }
 #Agregar:hover {
   background-color: rgba(255, 167, 208, 0.993);
   box-shadow: 0 0 2px 1px #a9b1ff;
 }
-
 .description {
   margin: 40px 0;
   text-align: center;
@@ -77,11 +68,16 @@ label {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: bold;
+  padding: 6px;
+}
+input{
   padding: 5px;
+  font-size: 16PX;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .item {
   border-radius: 2px;
-  border: 1px solid rgb(41, 33, 41);
+  border: 1.5px solid rgb(41, 33, 41);
   width: 100%;
   height: 20px;
 }
